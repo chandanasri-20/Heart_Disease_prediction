@@ -5,7 +5,7 @@ import pickle
 # Load model
 model = pickle.load(open("model.pkl", "rb"))
 
-st.set_page_config(page_title="Heart Disease Predictor", layout="centered")
+st.set_page_config(page_title="Heart Disease Predictor", layout="centered")   #
 
 st.title("🫀 Heart Disease Prediction App")
 st.write("Enter patient details below:")
